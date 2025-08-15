@@ -4,13 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Enviar Nome para API Gateway</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Formulário</h1>
+  <h1>Formulário Bacana</h1>
   <form id="userForm">
-    <input type="text" id="firstName" placeholder="First Name" required>
-    <input type="text" id="lastName" placeholder="Last Name" required>
+    <div class="input-area">
+      <div class="input-place">
+        <label>First Name</label>
+        <input type="text" id="firstName" placeholder="Add Your First Name" required>
+      </div>
+      <div class="input-place">
+        <label>Last Name</label>
+        <input type="text" id="lastName" placeholder="Add Your Last Name" required>
+      </div>
+    </div>
     <button type="submit">Enviar</button>
   </form>
 
